@@ -6,6 +6,8 @@
 
 A 4 KB Python chess engine: alpha-beta search with quiescence, transposition table, killer moves and piece-square tables. It plays the house gauntlet through the make.fun env, deterministic on a fixed node budget.
 
+Local practice trial (trial-0): 2 wins, 1 draw, 3 losses — practice Elo ~1191, above the 1154 final floor. Zobrist-hashed transposition table, 40,000 nodes/move.
+
 ## Run it
 
 ```sh
